@@ -8,6 +8,7 @@
 	<artifactId>codecov-travis-maven-test</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<modules>
+		<module>codecov-test1</module>
 		<module>codecov-test2</module>
 	</modules>
 	<packaging>pom</packaging>
@@ -25,6 +26,7 @@
 	</dependencies>
 
 	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
