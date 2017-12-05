@@ -1,6 +1,5 @@
-package com.lovepoem;
+package com.lovepoem.test1;
 
-import com.lovepoem.HelloWorld;
 import org.junit.Before;
 import org.junit.Test;
 
