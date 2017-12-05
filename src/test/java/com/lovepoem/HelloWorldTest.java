@@ -1,7 +1,6 @@
-package org.jacoco.examples.maven.java;
+package com.lovepoem;
 
-import static org.junit.Assert.*;
-
+import com.lovepoem.HelloWorld;
 import org.junit.Before;
 import org.junit.Test;
 

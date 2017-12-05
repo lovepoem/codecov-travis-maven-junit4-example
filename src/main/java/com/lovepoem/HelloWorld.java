@@ -1,4 +1,4 @@
-package org.jacoco.examples.maven.java;
+package com.lovepoem;
 
 public class HelloWorld {
 	
