@@ -1,6 +1,5 @@
-[Codecov][0] Java Maven Example
 
-Travis CI + codecov +maven
+Travis CI + codecov +maven [Codecov][0] Java Maven Example
 ===============================
 ## First step: add code to pom.xml and .travis.yml
 1. Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/codecov/codecov-travis-maven-test/blob/master/pom.xml#L47-L58)
