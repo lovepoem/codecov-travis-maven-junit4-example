@@ -22,8 +22,8 @@
 
 ## Second step: github code master add repository to travis ci and codev
 
-  - login https://travis-ci.org/ and add dubbo repository to https://travis-ci.org/
-  - login https://codecov.io/ and add dubbo repository to https://codecov.io/
+  - login https://travis-ci.org/ and add lovepoem/codecov-travis-maven-test repository to https://travis-ci.org/
+  - login https://codecov.io/ and add lovepoem/codecov-travis-maven-test repository to https://codecov.io/
 
 ## Third step: add test coverage rate README
 [![Build Status](https://travis-ci.org/lovepoem/codecov-travis-maven-test.svg?branch=master)](https://travis-ci.org/lovepoem/codecov-travis-maven-test)
