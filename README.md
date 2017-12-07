@@ -1,6 +1,6 @@
 [Codecov][0] Java Maven Example
 ===============================
-
+## First step: add code to pom.xml and .travis.yml
 1. Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/codecov/codecov-travis-maven-test/blob/master/pom.xml#L47-L58)
 1. Call `mvn cobertura:cobertura` during your CI tests, [see here](https://github.com/codecov/codecov-travis-maven-test/blob/master/.travis.yml#L4)
 1. Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/codecov/codecov-travis-maven-test/blob/master/.travis.yml#L7)
@@ -20,6 +20,11 @@
 [3]: https://github.com/codecov/example-android
 [5]: http://docs.codecov.io/docs/about-the-codecov-bash-uploader#section-upload-token
 
+## Second step: github code master add repository to travis ci and codev
+
+  - login https://travis-ci.org/ and add dubbo repository to https://travis-ci.org/ (it seems done)
+  - login https://codecov.io/ and add dubbo repository to https://codecov.io/
+
+## Third step: add test coverage rate README
 [![Build Status](https://travis-ci.org/lovepoem/codecov-travis-maven-test.svg?branch=master)](https://travis-ci.org/lovepoem/codecov-travis-maven-test)
 [![codecov](https://codecov.io/gh/lovepoem/codecov-travis-maven-test/branch/master/graph/badge.svg)](https://codecov.io/gh/lovepoem/codecov-travis-maven-test)
-
