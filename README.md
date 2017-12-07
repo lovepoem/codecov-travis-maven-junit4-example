@@ -22,7 +22,7 @@
 
 ## Second step: github code master add repository to travis ci and codev
 
-  - login https://travis-ci.org/ and add dubbo repository to https://travis-ci.org/ (it seems done)
+  - login https://travis-ci.org/ and add dubbo repository to https://travis-ci.org/
   - login https://codecov.io/ and add dubbo repository to https://codecov.io/
 
 ## Third step: add test coverage rate README
