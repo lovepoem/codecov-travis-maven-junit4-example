@@ -26,6 +26,7 @@ public class WorldHahaTest {
 
     @Test
     public void testFail() {
+        System.out.println("1111");
         Assert.assertEquals(true,false);
     }
 
