@@ -14,7 +14,6 @@ Travis CI + [Codecov][0] + Maven Java Example
 > - [Gradle Example][2]
 
 
-
 [0]: https://codecov.io/
 [1]: https://github.com/codecov/example-java
 [2]: https://github.com/codecov/example-gradle
