@@ -1,10 +1,10 @@
 
 Travis CI + [Codecov][0] + Maven Java Example
 ===============================
-## First step: add code to pom.xml and .travis.yml
-1. Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L39-L50)
-1. Call `mvn cobertura:cobertura` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L4)
-1. Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L7)
+## 1: add code to pom.xml and .travis.yml
+1). Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L39-L50)
+2). Call `mvn cobertura:cobertura` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L4)
+3). Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L7)
   - Using Travis CI, CircleCI or AppVeyor **AND** the repository is public? **You're done!** No token needed.
   - Otherwise, please add your [repository token token][5].
 
@@ -20,7 +20,7 @@ Travis CI + [Codecov][0] + Maven Java Example
 [3]: https://github.com/codecov/example-android
 [5]: http://docs.codecov.io/docs/about-the-codecov-bash-uploader#section-upload-token
 
-## Second step: github code master add repository to travis ci and codev with github account 
+## 2 : github code master add repository to travis ci and codev with github account 
 
   - login https://travis-ci.org/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://travis-ci.org/
   - login https://codecov.io/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://codecov.io/
