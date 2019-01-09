@@ -2,9 +2,9 @@
 Travis CI + [Codecov][0] + Maven Java Example
 ===============================
 ## First step: add code to pom.xml and .travis.yml
-1. Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-test/blob/master/pom.xml#L39-L50)
-1. Call `mvn cobertura:cobertura` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-test/blob/master/.travis.yml#L4)
-1. Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-test/blob/master/.travis.yml#L7)
+1. Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L39-L50)
+1. Call `mvn cobertura:cobertura` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L4)
+1. Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L7)
   - Using Travis CI, CircleCI or AppVeyor **AND** the repository is public? **You're done!** No token needed.
   - Otherwise, please add your [repository token token][5].
 
@@ -22,9 +22,9 @@ Travis CI + [Codecov][0] + Maven Java Example
 
 ## Second step: github code master add repository to travis ci and codev with github account 
 
-  - login https://travis-ci.org/ and add lovepoem/codecov-travis-maven-test repository to https://travis-ci.org/
-  - login https://codecov.io/ and add lovepoem/codecov-travis-maven-test repository to https://codecov.io/
+  - login https://travis-ci.org/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://travis-ci.org/
+  - login https://codecov.io/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://codecov.io/
 
 ## Third step: add test coverage rate to README.md
-[![Build Status](https://travis-ci.org/lovepoem/codecov-travis-maven-test.svg?branch=master)](https://travis-ci.org/lovepoem/codecov-travis-maven-test)
-[![codecov](https://codecov.io/gh/lovepoem/codecov-travis-maven-test/branch/master/graph/badge.svg)](https://codecov.io/gh/lovepoem/codecov-travis-maven-test)
+[![Build Status](https://travis-ci.org/lovepoem/codecov-travis-maven-junit4-example.svg?branch=master)](https://travis-ci.org/lovepoem/codecov-travis-maven-junit4-example)
+[![codecov](https://codecov.io/gh/lovepoem/codecov-travis-maven-junit4-example/branch/master/graph/badge.svg)](https://codecov.io/gh/lovepoem/codecov-travis-maven-junit4-example)

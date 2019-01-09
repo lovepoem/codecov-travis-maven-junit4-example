@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lovepoem</groupId>
-	<artifactId>codecov-travis-maven-test</artifactId>
+	<artifactId>codecov-travis-maven-junit4-example</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<modules>
 		<module>codecov-test1</module>
@@ -13,8 +13,8 @@
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>codecov-travis-maven-test</name>
-	<url>https://github.com/lovepoem/codecov-travis-maven-test</url>
+	<name>codecov-travis-maven-junit4-example</name>
+	<url>https://github.com/lovepoem/codecov-travis-maven-junit4-example</url>
 
 	<dependencies>
 		<dependency>
