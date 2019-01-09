@@ -25,6 +25,6 @@ Travis CI + [Codecov][0] + Junit4 + Maven Java Example
   - login https://travis-ci.org/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://travis-ci.org/
   - login https://codecov.io/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://codecov.io/
 
-## 3: Add test coverage rate to README.md
+## 3: Add travis and codecov icon in  README.md
 [![Build Status](https://travis-ci.org/lovepoem/codecov-travis-maven-junit4-example.svg?branch=master)](https://travis-ci.org/lovepoem/codecov-travis-maven-junit4-example)
 [![codecov](https://codecov.io/gh/lovepoem/codecov-travis-maven-junit4-example/branch/master/graph/badge.svg)](https://codecov.io/gh/lovepoem/codecov-travis-maven-junit4-example)
