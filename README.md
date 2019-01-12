@@ -20,7 +20,7 @@ Travis CI + [Codecov][0] + Junit4 + Maven Java Example
 [3]: https://github.com/codecov/example-android
 [5]: http://docs.codecov.io/docs/about-the-codecov-bash-uploader#section-upload-token
 
-## 2 : Add repository to travis ci and codev with github account 
+## 2 : Add repository to travis ci and codev with github account (manager of the repositoey)
 
   - login https://travis-ci.org/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://travis-ci.org/
   - login https://codecov.io/ and add lovepoem/codecov-travis-maven-junit4-example repository to https://codecov.io/
