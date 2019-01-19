@@ -20,7 +20,7 @@ Travis CI + [Codecov][0] + Junit4 + Maven Java Example
 ## 4: Notice
   Use `cobertura-maven-plugin` plugin `version 2.7` to collect test coverage , can support jdk version: `java1.7`,  `java8`+  will not maintained
   
-  So if you ues a higher jdk version , please see this repo : https://github.com/lovepoem/codecov-travis-maven-junit5-example  
+  **So if you ues a higher jdk version , please see this repo : https://github.com/lovepoem/codecov-travis-maven-junit5-example**  
   
   
   
