@@ -3,8 +3,8 @@ Travis CI + [Codecov][0] + Junit4 + cobertura + java1.7 + Maven Java Example
 ===============================
 ## 1: Add some code in  pom.xml and .travis.yml
 * 1). Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L40-L51)
-* 2). Call `mvn cobertura:cobertura` and `mvn clean package` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L5-L6)
-* 3). Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L8)
+* 2). Call `mvn cobertura:cobertura` and `mvn clean package` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L8-L9)
+* 3). Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L11)
   - Using Travis CI, CircleCI or AppVeyor **AND** the repository is public? **You're done!** No token needed.
   - Otherwise, please add your [repository token token][5].
 
