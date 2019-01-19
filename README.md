@@ -1,5 +1,5 @@
 
-Travis CI + [Codecov][0] + Junit4 + cobertura + java1.7 Maven Java Example
+Travis CI + [Codecov][0] + Junit4 + cobertura + java1.7 + Maven Java Example
 ===============================
 ## 1: Add some code in  pom.xml and .travis.yml
 * 1). Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L40-L51)
