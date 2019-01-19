@@ -1,5 +1,5 @@
 
-Travis CI + [Codecov][0] + Junit4 + Maven Java Example
+Travis CI + [Codecov][0] + Junit4 + cobertura + java1.7 + Maven Java Example
 ===============================
 ## 1: Add some code in  pom.xml and .travis.yml
 * 1). Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L40-L51)
@@ -20,7 +20,7 @@ Travis CI + [Codecov][0] + Junit4 + Maven Java Example
 ## 4: Notice
   Use `cobertura-maven-plugin` plugin `version 2.7` to collect test coverage without codecov token , can support jdk version: `java1.7`,  `java8`+  will not maintained
   
-  **So if you ues a higher jdk version , please see this repo : https://github.com/lovepoem/codecov-travis-maven-junit5-example**  
+  **So if you want to ues a higher jdk version , please see this repo : https://github.com/lovepoem/codecov-travis-maven-junit5-example**  
   
   
   
