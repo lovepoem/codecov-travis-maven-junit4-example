@@ -1,6 +1,9 @@
 language: java
 sudo: false # faster builds
 
+jdk:
+  - openjdk7
+  
 script:
  - mvn clean package
  - mvn cobertura:cobertura

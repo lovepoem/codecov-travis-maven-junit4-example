@@ -1,10 +1,10 @@
 
-Travis CI + [Codecov][0] + Junit4 + Maven Java Example
+Travis CI + [Codecov][0] + Junit4 + cobertura + java1.7 + Maven Java Example
 ===============================
 ## 1: Add some code in  pom.xml and .travis.yml
 * 1). Add `cobertura-maven-plugin` plugin to your pom.xml file, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/pom.xml#L40-L51)
-* 2). Call `mvn cobertura:cobertura` and `mvn clean package` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L5-L6)
-* 3). Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L8)
+* 2). Call `mvn cobertura:cobertura` and `mvn clean package` during your CI tests, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L8-L9)
+* 3). Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here](https://github.com/lovepoem/codecov-travis-maven-junit4-example/blob/master/.travis.yml#L11)
   - Using Travis CI, CircleCI or AppVeyor **AND** the repository is public? **You're done!** No token needed.
   - Otherwise, please add your [repository token token][5].
 
@@ -18,9 +18,9 @@ Travis CI + [Codecov][0] + Junit4 + Maven Java Example
 [![codecov](https://codecov.io/gh/lovepoem/codecov-travis-maven-junit4-example/branch/master/graph/badge.svg)](https://codecov.io/gh/lovepoem/codecov-travis-maven-junit4-example)
 
 ## 4: Notice
-  Use `cobertura-maven-plugin` plugin `version 2.7` to collect test coverage , can support jdk version: `java1.7`,  `java8`+  will not maintained
+  Use `cobertura-maven-plugin` plugin `version 2.7` to collect test coverage without codecov token , can support jdk version: `java1.7`,  `java8`+  will not maintained
   
-  So if you ues a higher jdk version , please see this repo : https://github.com/lovepoem/codecov-travis-maven-junit5-example  
+  **So if you want to ues a higher jdk version , please see this repo : https://github.com/lovepoem/codecov-travis-maven-junit5-example**  
   
   
   
