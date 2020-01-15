@@ -3,6 +3,8 @@ sudo: false # faster builds
 
 jdk:
   - openjdk7
+  - openjdk8
+  - openjdk11
   
 script:
  - mvn clean package
